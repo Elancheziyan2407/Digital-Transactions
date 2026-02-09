@@ -1,0 +1,23 @@
+Payment Mode Summary Table (Revenue & Accounting)
+| Payment_Mode | Total_Transactions | Successful_Transactions | Revenue (₹) | Transaction_Fee (₹) | Net_Revenue (₹) |
+| ------------ | ------------------ | ----------------------- | ----------- | ------------------- | --------------- |
+| Credit Card  | 16                 | 12                      | 1200        | 24                  | 1176            |
+| Debit Card   | 22                 | 21                      | 2100        | 42                  | 2058            |
+| Net Banking  | 19                 | 16                      | 1600        | 32                  | 1568            |
+| Wallet       | 17                 | 9                       | 900         | 18                  | 882             |
+| **Total**    | 74                 | 58                      | 5800        | 116                 | 5684            |
+
+P&L Summary Table
+| Particulars            | Amount (₹) |
+| ---------------------- | ---------- |
+| Total Revenue          | 5800       |
+| Total Transaction Fees | 116        |
+| **Net Profit**         | 5684       |
+
+Cash Flow
+| Activity            | Amount (₹) |
+| ------------------- | ---------- |
+| Cash from Customers | 5800       |
+| Cash Paid Fees      | 116        |
+| **Net Cash Flow**   | 5684       |
+
