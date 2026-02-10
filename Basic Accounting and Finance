@@ -1,23 +1,81 @@
-Payment Mode Summary Table (Revenue & Accounting)
-| Payment_Mode | Total_Transactions | Successful_Transactions | Revenue (₹) | Transaction_Fee (₹) | Net_Revenue (₹) |
-| ------------ | ------------------ | ----------------------- | ----------- | ------------------- | --------------- |
-| Credit Card  | 16                 | 12                      | 1200        | 24                  | 1176            |
-| Debit Card   | 22                 | 21                      | 2100        | 42                  | 2058            |
-| Net Banking  | 19                 | 16                      | 1600        | 32                  | 1568            |
-| Wallet       | 17                 | 9                       | 900         | 18                  | 882             |
-| **Total**    | 74                 | 58                      | 5800        | 116                 | 5684            |
+TRANSACTION COUNTS:
+| Status    | Count   |
+| --------- | ------- |
+| Success   | **75**  |
+| Failed    | **17**  |
+| Pending   | **8**   |
+| **Total** | **100** |
 
-P&L Summary Table
-| Particulars            | Amount (₹) |
-| ---------------------- | ---------- |
-| Total Revenue          | 5800       |
-| Total Transaction Fees | 116        |
-| **Net Profit**         | 5684       |
 
-Cash Flow
-| Activity            | Amount (₹) |
-| ------------------- | ---------- |
-| Cash from Customers | 5800       |
-| Cash Paid Fees      | 116        |
-| **Net Cash Flow**   | 5684       |
+TOTAL AMOUNT BY STATUS:
+
+| Status  | Total Amount |
+| ------- | ------------ |
+| Success | **₹213,278** |
+| Failed  | ₹45,014      |
+| Pending | ₹21,638      |
+
+
+PLATFORM REVENUE (2%):
+Revenue = 2% × 213,278
+        = ₹4,265.56
+
+
+JOURNAL ENTRY TOTALS:
+When customer pays successfully
+Dr Cash / Bank                     213,278
+    Cr Merchant Payable            209,012.44
+    Cr Platform Revenue              4,265.56
+
+
+Failed / Pending Transactions:
+No accounting entry
+(Only operational logs)
+
+
+
+PROFIT & LOSS STATEMENT:
+| Particulars                | Amount (₹)   |
+| -------------------------- | ------------ |
+| Revenue (Transaction Fees) | 4,265.56     |
+| Expenses                   | 0            |
+| **Net Profit**             | **4,265.56** |
+
+
+BALANCE SHEET:
+| Assets      | Amount (₹) |
+| ----------- | ---------- |
+| Cash / Bank | 213,278    |
+
+| Liabilities      | Amount (₹) |
+| ---------------- | ---------- |
+| Merchant Payable | 209,012.44 |
+
+| Equity                         | Amount (₹) |
+| ------------------------------ | ---------- |
+| Retained Earnings (Net Profit) | 4,265.56   |
+
+Assets = Liabilities + Equity
+213,278 = 209,012.44 + 4,265.56
+213,278 = 213,278 
+
+
+CASH FLOW STATEMENT:
+| Particulars                  | Amount (₹)    |
+| ---------------------------- | ------------- |
+| Cash received from customers | +213,278      |
+| Cash paid to merchants       | -209,012.44   |
+| **Net Operating Cash Flow**  | **+4,265.56** |
+
+FINAL BUSINESS NUMBERS:
+
+Total Successful Transaction Value: ₹213,278
+
+Platform Revenue: ₹4,265.56
+
+Merchant Settlement Liability: ₹209,012.44
+
+Net Profit: ₹4,265.56
+
+Cash Balance: ₹213,278
 
