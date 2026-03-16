@@ -10,6 +10,8 @@ Analyzes digital payment transaction failures in the finance domain to identify 
 
 ## Technologies Used:
 - SQL
-- Python (pandas, matplotlib, seaborn)
+- Python (pandas, matplotlib, Numpy)
 - Excel / Power BI
+
+  
   
